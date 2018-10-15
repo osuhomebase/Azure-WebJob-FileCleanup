@@ -4,23 +4,23 @@ using System.Linq;
 using Microsoft.Azure.WebJobs;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
-// Added Below
 using System.Configuration;
-
-//-----------------------------------------------------------------
-// This code is an adaptation of this article:
-// https://www.surinderbhomra.com/Blog/Post/2017/04/23/Azure-WebJob-To-Delete-Old-Files-from-A-Blob-Container
-// Surinder Bhomra does an excellent job explaining step by step 
-// Required:  Update Nuget Packages for 
-//           WindowsAzure.Storage
-//           Microsoft.Azure.KeyVault.Core
-//      Add Reference to:
-//           System.Configuration
-// Be sure to add Connection Strings to your App.Config
-// ----------------------------------------------------------------
 
 namespace BlobFileCleanup
 {
+
+    //-----------------------------------------------------------------
+    // This code is an adaptation of this article:
+    // https://www.surinderbhomra.com/Blog/Post/2017/04/23/Azure-WebJob-To-Delete-Old-Files-from-A-Blob-Container
+    // Surinder Bhomra does an excellent job explaining step by step 
+    // Required:  Update Nuget Packages for 
+    //           WindowsAzure.Storage
+    //           Microsoft.Azure.KeyVault.Core
+    //      Add Reference to:
+    //           System.Configuration
+    // Be sure to add Connection Strings to your App.Config
+    // ----------------------------------------------------------------
+
     // To learn more about Microsoft Azure WebJobs SDK, please see https://go.microsoft.com/fwlink/?LinkID=320976
     class Program
     {
@@ -36,8 +36,8 @@ namespace BlobFileCleanup
             }
 
             var host = new JobHost(config);
-            // The following code ensures that the WebJob will be running continuously - I removed this and schedule it
-            // host.RunAndBlock();
+            // The following code ensures that the WebJob will be running continuously
+            //host.RunAndBlock();
 
             try
             {
@@ -81,7 +81,6 @@ namespace BlobFileCleanup
             }
 
             Console.WriteLine("Clean Containers WebJob complete.");
-
         }
     }
 }

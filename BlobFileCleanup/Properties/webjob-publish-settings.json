@@ -1,6 +1,6 @@
-{
+﻿{
   "$schema": "http://schemastore.org/schemas/json/webjob-publish-settings.json",
-  "webJobName": "BlobFileCleanup",
+  "webJobName": "AdminAmerica-Invoices-BlobFileCleanup",
   "runMode": "Scheduled",
   "startTime": "2018-09-30T00:00:00-08:00",
   "endTime": "2028-09-30T00:00:00-08:00",
