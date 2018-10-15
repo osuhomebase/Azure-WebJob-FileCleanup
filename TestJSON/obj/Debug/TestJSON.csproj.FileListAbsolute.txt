@@ -1,0 +1,11 @@
+C:\SourceCode\Azure-WebJob-FileCleanup\TestJSON\bin\Debug\TestJSON.exe.config
+C:\SourceCode\Azure-WebJob-FileCleanup\TestJSON\bin\Debug\TestJSON.exe
+C:\SourceCode\Azure-WebJob-FileCleanup\TestJSON\bin\Debug\TestJSON.pdb
+C:\SourceCode\Azure-WebJob-FileCleanup\TestJSON\bin\Debug\Newtonsoft.Json.dll
+C:\SourceCode\Azure-WebJob-FileCleanup\TestJSON\bin\Debug\Newtonsoft.Json.xml
+C:\SourceCode\Azure-WebJob-FileCleanup\TestJSON\obj\Debug\TestJSON.csprojAssemblyReference.cache
+C:\SourceCode\Azure-WebJob-FileCleanup\TestJSON\obj\Debug\TestJSON.csproj.CoreCompileInputs.cache
+C:\SourceCode\Azure-WebJob-FileCleanup\TestJSON\obj\Debug\TestJSON.csproj.CopyComplete
+C:\SourceCode\Azure-WebJob-FileCleanup\TestJSON\obj\Debug\TestJSON.exe
+C:\SourceCode\Azure-WebJob-FileCleanup\TestJSON\obj\Debug\TestJSON.pdb
+C:\SourceCode\Azure-WebJob-FileCleanup\TestJSON\bin\Debug\Profiles.json

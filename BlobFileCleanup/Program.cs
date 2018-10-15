@@ -83,4 +83,10 @@ namespace BlobFileCleanup
             Console.WriteLine("Clean Containers WebJob complete.");
         }
     }
+    class StorageUnit
+    {
+        public string containerName { get; set; }
+        public string connectionString { get; set; }
+        public string cleanupHours { get; set; }
+    }
 }

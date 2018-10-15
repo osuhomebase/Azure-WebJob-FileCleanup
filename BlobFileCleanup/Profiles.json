@@ -1,0 +1,23 @@
+[
+    {
+
+      "containerName": "a",
+      "connectionString": "b",
+      cleanupHours": "168"
+
+    },
+    {
+
+      "containerName": "commissions",
+      "connectionString": "c",
+      "cleanupHours": "168"
+
+    },
+    {
+
+      "containerName": "svg2png",
+      "connectionString": "d",
+      "cleanupHours": "24"
+
+    }
+  ]
